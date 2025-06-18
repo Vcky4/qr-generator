@@ -1,5 +1,8 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "qr-generator",
+  "description": "A simple QR code generator built with React and Vite.",
+  "author": "Victor Okon",
+  "license": "MIT",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
